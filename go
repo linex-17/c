@@ -1,13 +1,13 @@
-C=usr/bin/c
-clear
+CC=usr/bin/c
 
 cd ~
 cd ..
 
-if test $C 
+if test $CC
 then
 echo "Error"
 else
-echo "clear" > $C
+echo "clear" > $CC
+clear
 echo "Done!!!"
 fi
