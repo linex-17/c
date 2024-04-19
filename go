@@ -1,5 +1,11 @@
-echo "test"
+C=usr/bin/c
+clear
+echo "Test"
 cd ~
 cd ..
-echo "clear" > usr/bin/c
-cd ~
+
+if $C than
+echo "Installed"
+else
+echo "clear" > $C
+fi
