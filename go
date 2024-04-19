@@ -1,12 +1,12 @@
 C=usr/bin/c
 clear
-echo "Test"
+
 cd ~
 cd ..
 
 if test $C 
 then
-echo "Installed"
+echo "Error"
 else
 echo "clear" > $C
 echo "Done!!!"
