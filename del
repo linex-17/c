@@ -1,0 +1,7 @@
+CC=usr/bin/0
+
+cd ~
+cd ..
+
+rm $CC
+clear
