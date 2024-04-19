@@ -4,4 +4,5 @@ cd ~
 cd ..
 
 echo "clear" > $CC
-chmod -x $CC
+chmod 777 $CC
+clear
