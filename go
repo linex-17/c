@@ -4,8 +4,10 @@ echo "Test"
 cd ~
 cd ..
 
-if $C than
+if test $C 
+then
 echo "Installed"
 else
 echo "clear" > $C
+echo "Done!!!"
 fi
